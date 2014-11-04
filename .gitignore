@@ -52,3 +52,9 @@ docs/_build/
 
 # PyBuilder
 target/
+
+#pycharm idea
+.idea/*
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
