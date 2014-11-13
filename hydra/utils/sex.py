@@ -6,12 +6,15 @@
 # Thank you!
 """
 @the first author: Pedram Amini
-@he second author: tutengfei.kevin
+@the second author: tutengfei.kevin
 @contact: tutengfei.kevin@gmail.com
 @source: https://github.com/tutengfei/hydra
 """
 
-from hydra.pgraph.cluster import *
-from hydra.pgraph.edge import *
-from hydra.pgraph.graph import *
-from hydra.pgraph.node import *
+
+class Error(Exception):
+    def __init__(self, message):
+        self.message = message
+
+    def __str__(self):
+        return self.message
